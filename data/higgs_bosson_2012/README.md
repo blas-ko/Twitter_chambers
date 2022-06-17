@@ -1,0 +1,3 @@
+# Data description
+
+We take [this retweet network](https://networks.skewed.de/net/twitter_higgs) from the amazing [Netzschleuder](https://networks.skewed.de/) cataloge. The retweet network consists of the conversation related to the announcement of the discovery of a new fundamental particle with the features of the Higgs boson on 4th July 2012. Data covers 1-7 July 2012 so we only have one week. The data was originally used in [this paper](https://doi.org/10.1038/srep02980).

@@ -1,0 +1,6 @@
+# prop_name, value
+name,twitter_higgs (retweet)
+description,"Data on tweets related to the announcement of the discovery of a new fundamental particle with the features of the Higgs boson on 4th July 2012.  Data covers 1-7 July 2012, and includes four types of networks: followers, retweets, replies, and mentions."
+citation,"['M. De Domenico, A. Lima, P. Mougel, M. Musolesi, \"The Anatomy of a Scientific Rumor.\" Scientific Reports 3, 2980 (2013). arxiv:1301.2952, http://www.nature.com/articles/srep02980']"
+url,http://snap.stanford.edu/data/higgs-twitter.html
+tags,"['Social', 'Online', 'Weighted', 'Multilayer']"
