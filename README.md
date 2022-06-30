@@ -1,9 +1,9 @@
 # Twitter_chambers
-Code for Kolic and Aguirre-Lopez' article: *"Quantifying the structure of controversial discussions with unsupervised methods: a look into the Twitter climate change conversation"* (Forthcoming, 2022)
+Code for Kolic and Aguirre-Lopez' article: "[*Quantifying the structure of controversial discussions with unsupervised methods: a look into the Twitter climate change conversation*](https://arxiv.org/abs/2206.14501)"
 
 <hr>
 
-Check the `/example` folder and the [`chamber_example_higgs-boson.ipynb`](https://github.com/blas-ko/Twitter_chambers/blob/main/example/chamber_example_higgs-boson.ipynb) Jupyter notebook for a tutorial on how to use the code with a [real retweet network](https://github.com/blas-ko/Twitter_chambers/tree/main/data/higgs_bosson_2012).
+Check the `/example` folder and the [`chamber_example_higgs-boson.ipynb`](https://github.com/blas-ko/Twitter_chambers/blob/main/example/chamber_example_higgs-boson.ipynb) Jupyter notebook for a tutorial on how to use the code with a [real retweet network](https://github.com/blas-ko/Twitter_chambers/tree/main/data/higgs_bosson_2012) about the discovery of the Higgs Bosson on 2012.
 
 ### Disclaimer
   
@@ -15,4 +15,5 @@ By using this code you agree with the following points:
 
 ### Contact
 
-**blas.kolic@maths.ox.ac.uk**
+- **blas.kolic@maths.ox.ac.uk**
+- **fabian.aguirre-lopez@universite-paris-saclay.fr**
