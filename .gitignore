@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 __pycache__/
 notebooks/local
+.DS_Store
+retweet_week_*.csv
