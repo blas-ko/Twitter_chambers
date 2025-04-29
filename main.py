@@ -130,7 +130,7 @@ P_empirical = communities_manual_labelling_anonymized(M=NUM_PERSISTENT_USERS)
 # print( P_empirical )
 
 # Unsupervised
-P_spectral, (spectral_eigvals, spectral_eigvecs) = cm.communities_spectral( Q_static.replace(np.nan,0), mode=3, cutoff=0, return_spectra=True)
+P_spectral, (spectral_eigvals, spectral_eigvecs) = cm.communities_spectral( Q_static.replace(np.nan,0), mode=3, cutoff=0, return_spectra=True, anchor_believer=('PaulEDawson', 2085114))
 # P_spectral, (l,u) = cm.communities_spectral(Q_static_binary, mode=3, cutoff=0, return_spectra=True)
 # print( P_spectral )
 

@@ -5,7 +5,7 @@ import pandas as pd
 import networkx as nx
 from community import best_partition
 
-def communities_spectral( Q, mode=3, cutoff=0, return_spectra=False, anchor_believer=('PaulEDawson', 2085114) ):
+def communities_spectral( Q, mode=3, cutoff=0, return_spectra=False, anchor_believer=None ):
     '''Unsupervised community detection based on the spectral clustering of the Laplacian of the similarity matrix Q.'''
     L = laplacian_matrix( Q.replace(np.nan,0) )
     eigvals, eigvecs = np.linalg.eig(L)
@@ -16,8 +16,9 @@ def communities_spectral( Q, mode=3, cutoff=0, return_spectra=False, anchor_beli
     leading_eigvec = dict( zip(Q.index.values[users_ordering], leading_eigvec[users_ordering]) )
     
     # Force cutoff to have the same sign as the leading eigenvector of some anchor believer
-    anchor_cutoff = next(leading_eigvec[anchor] for anchor in anchor_believer if anchor in leading_eigvec.keys())    
-    leading_eigvec = {u: np.sign(anchor_cutoff) * v for (u, v) in leading_eigvec.items()}    
+    if anchor_believer is not None:
+        anchor_cutoff = next(leading_eigvec[anchor] for anchor in anchor_believer if anchor in leading_eigvec.keys())    
+        leading_eigvec = {u: np.sign(anchor_cutoff) * v for (u, v) in leading_eigvec.items()}    
 
     P_spectral = dict()
     for user, val in leading_eigvec.items():        
