@@ -19,4 +19,4 @@ By using this code, you agree with the following points:
 
 ## Contact
 - **blas.kolic@uc3m.es**
-- **aguirre.fabian@gmail.com**
+- **fabian.aguirre-lopez@ladhyx.polytechnique.fr**
