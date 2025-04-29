@@ -138,7 +138,7 @@ def augment_echo_chamber( scores, audiences_of_scored, echo_chamber, thresh=0.75
     '''Augment `echo_chamber`:set
     '''
     
-    groups = list( echo_chamber.keys() )
+    groups = list( echo_chamber.keys() ) # skeptics, believers
     augmented_echo_chamber = dict() 
     
     for group in groups:
@@ -156,18 +156,3 @@ def augment_echo_chamber( scores, audiences_of_scored, echo_chamber, thresh=0.75
                 pass
             
     return augmented_echo_chamber
-
-## Helpers
-def flatten_array_of_dicts(x):
-    '''Concatenates all the dicts of array:array[dict].'''
-    
-    flattened_array = []
-    for dic in x:
-        for a in dic.values():
-            flattened_array.append(a)
-    
-    return flattened_array
-    
-def flatten_array_of_arrays(x):
-    '''Concatenates all the arrays of x:array[array].'''
-    return [a for arr in x for a in arr]
