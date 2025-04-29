@@ -5,8 +5,8 @@ Code for Kolic and Aguirre-Lopez' article: "[*Quantifying the structure of contr
 
 ## Instructions
 To reproduce the analysis and plots from the paper: 
-1. Install the required python libraries via
-> pip install -r requirements.txt
+1. Install the required python (`python >= 3.10`) libraries via
+> pip3 install -r requirements.txt
 2. Download the anonymized weekly retweet networks from [Zenodo](https://doi.org/10.5281/zenodo.15303965) and paste them at `data/networks_anonymized`
 3. Run every cell of [`notebooks/plots.ipynb`](https://github.com/blas-ko/Twitter_chambers/blob/main/notebooks/plots.ipynb). This notebook runs [`main.py`](https://github.com/blas-ko/Twitter_chambers/blob/main/main.py) and then creates each plot of the paper.
 
