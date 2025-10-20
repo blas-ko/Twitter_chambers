@@ -1,7 +1,7 @@
 # Twitter Chambers
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15303965.svg)](https://doi.org/10.5281/zenodo.15303965) [![arXiv](https://img.shields.io/badge/arXiv-2206.14501-b31b1b.svg)](https://arxiv.org/abs/2206.14501)
 
-Code for Kolic and Aguirre-Lopez' 2025 article: "[*From chambers to echo chambers: Quantifying polarization with a second-neighbor approach applied to Twitter's climate discussion*]([https://arxiv.org/abs/2206.14501](https://doi.org/10.1093/comnet/cnaf020))", published in the Journal of Complex Networks. ([ArXiv](https://arxiv.org/abs/2206.14501))
+Code for Kolic and Aguirre-Lopez' 2025 article: "[*From chambers to echo chambers: Quantifying polarization with a second-neighbor approach applied to Twitter's climate discussion*](https://doi.org/10.1093/comnet/cnaf020)", published in the Journal of Complex Networks. ([ArXiv](https://arxiv.org/abs/2206.14501))
 
 ## Instructions
 To reproduce the analysis and plots from the paper: 
